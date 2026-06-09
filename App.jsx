@@ -1434,20 +1434,7 @@ function Footer({ setPage }) {
                 <div className="text-stone-500 text-xs mb-1">微信号</div>
                 <div className="text-stone-900">{CONTACT.wechatId}</div>
               </div>
-              <button
-                onClick={() => setQrOpen(true)}
-                className="mt-2 inline-flex items-center gap-3 p-2 pr-4 rounded-2xl bg-white border border-stone-200 hover:border-red-700 hover:shadow-sm transition group"
-              >
-                
-                <span className="text-sm">
-                  <span className="block text-stone-900 font-medium">
-                    扫码加微信
-                  </span>
-                  <span className="block text-xs text-stone-500 group-hover:text-red-700">
-                    点击放大查看
-                  </span>
-                </span>
-              </button>
+              
             </div>
           </div>
         </div>
