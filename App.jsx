@@ -1438,11 +1438,7 @@ function Footer({ setPage }) {
                 onClick={() => setQrOpen(true)}
                 className="mt-2 inline-flex items-center gap-3 p-2 pr-4 rounded-2xl bg-white border border-stone-200 hover:border-red-700 hover:shadow-sm transition group"
               >
-                <img
-                  src={CONTACT.wechatQR}
-                  alt="微信二维码"
-                  className="w-14 h-14 rounded-lg"
-                />
+                
                 <span className="text-sm">
                   <span className="block text-stone-900 font-medium">
                     扫码加微信
