@@ -1479,11 +1479,7 @@ function Footer({ setPage }) {
                 <X className="w-5 h-5" />
               </button>
             </div>
-            <img
-              src={CONTACT.wechatQR}
-              alt="微信二维码"
-              className="w-full rounded-2xl border border-stone-200"
-            />
+            
             <div className="mt-4 text-sm text-stone-600">
               微信号：
               <span className="text-stone-900 font-medium">
