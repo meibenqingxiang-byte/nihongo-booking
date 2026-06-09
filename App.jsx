@@ -474,7 +474,7 @@ function Home({ setPage, prefill, setPrefill, viewCourse }) {
         <div className="absolute top-10 right-0 w-72 h-72 bg-red-100 rounded-full blur-3xl opacity-50 -z-10" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-100 rounded-full blur-3xl opacity-40 -z-10" />
 
-        <div className="max-w-6xl mx-auto px-4 py-6 md:py-14 grid md:grid-cols-5 gap-4 items-center">
+        <div className="max-w-6xl mx-auto px-4 py-6 md:py-14 grid md:grid-cols-2 gap-6 items-center">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white border border-stone-200 px-4 py-2 text-sm text-stone-700 mb-6 shadow-sm">
               <Sparkles className="w-4 h-4 text-red-700" />
